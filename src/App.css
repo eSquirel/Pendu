@@ -1,0 +1,88 @@
+.pendu > .lettre.false,
+.pendu > .lettre.true {
+  position: relative;
+  top: 620px;
+  width: 150px;
+  left: 60px;
+  font-size: 1em;
+  outline: 0.5em solid silver;
+  margin: 0.4em;
+  padding: 15px;
+  display: inline-block;
+  cursor: default;
+}
+
+.pendu > .erreurs {
+  font-weight: bold;
+  color: darkred;
+  position: absolute;
+  right: 300px;
+  top: 100px;
+  border: solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+.pendu > .masque{
+font-size: 4em;
+position: absolute;
+left: 40%;
+top: 20%;
+
+}
+.pendu >.win{
+font-size: 3em;
+font-weight: bold;
+color: forestgreen;
+position: absolute;
+left: 50%;
+margin-left: -50px;
+top: 55%;
+}
+.pendu >.lose{
+font-size: 3em;
+font-weight: bold;
+color:darkred;
+position: absolute;
+left: 50%;
+margin-left: -50px;
+top: 55%;
+}
+.pendu >.win >.replay{
+  display: inline-block;
+  padding: 15px 35px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #564caf;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.pendu >.lose >.replay{
+  display: inline-block;
+  padding: 15px 35px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #564caf;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+body{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0e5ce;
+}
