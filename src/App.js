@@ -3,7 +3,7 @@ import './App.css';
 import PropTypes from 'prop-types'
 
 const LETTRES = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
-const MOTS = ['COCHONDINDE', 'CAILLOUX', 'STYX', 'PHOENIX', 'ALEATOIRE', 'PIGEON', 'NOCTAMBULE', 'AGRICULTEUR', 'ROSE', 'PARAPLUIE', 'RHAPSODIE', 'TOMBEAU']
+const MOTS = ['COCHONDINDE', 'CAILLOUX', 'STYX', 'PHOENIX', 'ALEATOIRE', 'PIGEON', 'NOCTAMBULE', 'AGRICULTEUR', 'ROSE', 'PARAPLUIE', 'RHAPSODIE', 'TOMBEAU','TRAMPOLINE']
 const LOCKED = '❌'
 
 var running = true
